@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sclippy | Svg</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/facy.css">
+    <link rel="stylesheet" href="css/fontstyle.css">
+    <link rel="stylesheet" href="css/fullpage.min.css">
+
+    <script src="js/anime.min.js"></script>
+</head>
+<body>
+    
+    <svg>
+        <defs>
+            <clipPath id="clipPath">
+                <circle class="one" cx="200" cy="400" r="200"></circle>
+            </clipPath>
+        </defs>
+    </svg>
+
+
+    <div class="wrapper">
+        <nav>
+            <div id="close">
+                <div class=" bar1"></div>
+                <div class=" bar2"></div>
+            </div>
+
+            <div id="mobile-close">
+                <div class=" bar1"></div>
+                <div class=" bar2"></div>
+            </div>
+            
+            <ul class="in">
+                <li><button><a href="#">Intro</a></button></li>
+                <li><button><a href="#">Info</a></button></li>
+                <li><button><a href="#">Into</a></button></li>
+                <li><button><a href="#">In-row</a></button></li>
+            </ul>
+            <section class="settings">
+                <span>Settings</span>
+                <div class="options">
+                    <span class="name">Mode</span>
+                    <span class="name">Mood</span>
+                    <span class="name">Mod</span>
+
+                    <label for="Drkmde" class="switch">
+                        <input type="checkbox" name="Drkmde" id="Drkmde">
+                        <span class="slider"></span>
+                    </label>
+                    <label for="mood" class="switch">
+                        <input type="checkbox" name="mood" id="mood">
+                        <span class="slider"></span>
+                    </label>
+                    <label for="mode" class="switch">
+                        <input type="checkbox" name="mode" id="mode">
+                        <span class="slider"></span>
+                    </label>
+
+                </div>
+            </section>
+
+            <!-- <p class="in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, recusandae! Ipsa molestias, iusto sint sit natus explicabo ullam sequi. Assumenda sit amet quod aliquid, reiciendis exercitationem id magnam ex? Cumque.</p> -->
+
+        </nav>
+    </div>
+
+    <div id="body">
+	
+        <!-- <div class="header" >
+            <div>
+                <img src="img/helo.png" >
+            </div>
+        </div> -->
+        
+        <div class="section section1 sctn">
+            <button id="open">Open Nav</button>
+
+            <div class="headcont">
+                <h1 class="h1">Hello There!</h1>
+                <p class="p">This page was inspired by <span class="tutsCont"><span id="tuts">God</span class="slider"></span>.</p>
+            </div>
+            
+            <div id="display-cont">
+                <div class="sect">
+                        <div class="disp">
+                                <img id="cntrld" src="img/surftri.jpg" alt="">
+                                <div class="overlay"></div>
+                        </div>    
+                </div>
+          
+            </div>
+            
+        </div>
+    
+        <div class="section sectionN sctn">
+            <div class="sect">
+                <div class="caption">
+                    <h1>Psst...</h1>
+                    <p>He Likes Your Cursor</p>
+                </div>
+                <div class="hoverable contain">
+                    <div id="myDiv" >
+                        <div class="face">
+                          <div class="eye left"></div>
+                          <div class="eye right"></div>
+                          <div class="mouth"></div>
+                        </div>
+                      </div>
+                </div>    
+            </div>
+        </div>
+    
+    
+    </div>
+    <div id="cursor"></div>
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/facy.js"></script>
+	<!-- <script src="js/vendor/jquery-1.11.2.min.js"></script>
+	<script src="js/ScrollMagic.min.js"></script>
+	<script src="js/debug.addIndicators.min.js"></script> -->
+    <script>
+        // new fullpage('#body', {
+        //     autoscrolling: true
+        // })
+    </script>
+</body>
+</html>
