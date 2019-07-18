@@ -1,2 +1,2 @@
-#Twitter bot
+#Sclippy
 /home              /
